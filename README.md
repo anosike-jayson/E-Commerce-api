@@ -1,9 +1,9 @@
-🛍️ E-Commerce Backend API
+# 🛍️ E-Commerce Backend API
 
 A full-featured e-commerce REST API built with NestJS, TypeORM, PostgreSQL, and JWT authentication.
 Designed for scalability, security, and real-world production readiness.
 
-🚀 Features
+# 🚀 Features
 ✅ Authentication & Authorization
 
 Email/password signup and login
@@ -60,14 +60,14 @@ Comprehensive error handling
 
 Transaction support for order creation
 
-🧰 Tech Stack
+# 🧰 Tech Stack
 Category	Technology
 Framework	NestJS 10
 Database	PostgreSQL with TypeORM
 Authentication	JWT 
 Validation	class-validator & class-transformer
 
-⚙️ Installation
+# ⚙️ Installation
 Prerequisites
 
 Node.js v18+
@@ -84,17 +84,17 @@ cd ecommerce-api
 npm install
 
 3️⃣ Setup Database
-# Create a PostgreSQL database
+Create a PostgreSQL database
 createdb ecommerce
 
-# Or using psql
+Or using psql
 psql -U postgres
 CREATE DATABASE ecommerce;
 
 4️⃣ Configure Environment
 cp .env.example .env
-# Edit .env with your database credentials and JWT secret
+Edit .env with your database credentials and JWT secret
 
 5️⃣ Run the Application
-# Development mode
+Development mode
 npm run start:dev
