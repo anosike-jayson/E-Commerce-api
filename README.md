@@ -60,15 +60,13 @@ Comprehensive error handling
 
 Transaction support for order creation
 
-15+ E2E tests covering all major features
-
 🧰 Tech Stack
 Category	Technology
 Framework	NestJS 10
 Database	PostgreSQL with TypeORM
-Authentication	JWT (Passport)
+Authentication	JWT 
 Validation	class-validator & class-transformer
-Testing	Jest & Supertest
+
 ⚙️ Installation
 Prerequisites
 
@@ -87,7 +85,7 @@ npm install
 
 3️⃣ Setup Database
 # Create a PostgreSQL database
-createdb ecommerce_local
+createdb ecommerce
 
 # Or using psql
 psql -U postgres
@@ -100,4 +98,3 @@ cp .env.example .env
 5️⃣ Run the Application
 # Development mode
 npm run start:dev
-
